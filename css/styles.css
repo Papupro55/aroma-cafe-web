@@ -1,3 +1,7 @@
 :root { --primary: #7B3F00; }
-body { font-family: Arial, sans-serif; margin: 0; }
+body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
+nav { background: #fff6ec; padding: 1rem; }
 nav a { color: var(--primary); margin-right: 1rem; }
+main { max-width: 780px; margin: 2rem auto; padding: 0 1rem; }
+.menu { display: grid; gap: 1rem; padding: 0; list-style: none; }
+.menu li { border: 1px solid #c8a48b; border-radius: 12px; padding: 1rem; background: #fff9f3; }
