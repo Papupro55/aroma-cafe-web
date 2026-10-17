@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Aroma Café in Chihuahua, Mexico. Get in touch with us for inquiries, catering, and reservations.">
+  <title>Contact | Aroma Café</title>
+  <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+  <main>
+    <h1>Aroma Café</h1>
+    <h2>Get in Touch</h2>
+
+    <section class="contact-info">
+      <div class="info-item">
+        <span class="info-label">Location:</span>
+        <span class="info-value">Chihuahua, Chihuahua, Mexico</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Hours:</span>
+        <span class="info-value">Monday–Saturday, 8:00 AM–8:00 PM</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Phone:</span>
+        <span class="info-value"><a href="tel:6145550199">(614) 555-0199</a></span>
+      </div>
+    </section>
+
+    <form id="contact-form">
+      <label for="name">Full Name</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        autocomplete="name"
+        placeholder="Your name"
+        required
+      >
+
+      <label for="email">Email Address</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        autocomplete="email"
+        placeholder="you@example.com"
+        required
+      >
+
+      <label for="subject">Subject</label>
+      <input
+        id="subject"
+        name="subject"
+        type="text"
+        placeholder="Inquiry, feedback, or reservation"
+        required
+      >
+
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Write your message here..."
+        required
+      ></textarea>
+
+      <button type="submit" id="submit-btn">Send Message</button>
+    </form>
+
+    <p class="demo-notice">Demo form only — messages are not sent.</p>
+    <p><a href="../index.html">Back to home</a></p>
+  </main>
+</body>
+</html>
